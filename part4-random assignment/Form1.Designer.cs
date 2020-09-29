@@ -110,6 +110,7 @@
             this.btnDouble.TabIndex = 7;
             this.btnDouble.Text = "Get Double";
             this.btnDouble.UseVisualStyleBackColor = true;
+            this.btnDouble.Click += new System.EventHandler(this.btnDouble_Click);
             // 
             // frm1
             // 

@@ -58,11 +58,16 @@ namespace part4_random_assignment
         {
             int max = Convert.ToInt32(txtboxmax.Text);
             int min = Convert.ToInt32(txtboxmin.Text); 
-
-            
-            
-
+       
             lblNumber.Text = generator.Next(min, max + 1) + "";
         }
+
+        private void btnDouble_Click(object sender, EventArgs e)
+        {
+        //    double min = Conv
+        //    double max = Conv
+        //    double randomDouble = generator.NextDouble() * (max - min) + min;
+        //    lblNumber.Text = randomDouble.ToString();
+        //}
     }
 }
